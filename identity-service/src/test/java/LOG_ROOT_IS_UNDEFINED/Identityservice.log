@@ -1,0 +1,339 @@
+13:01:34.626 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 5036 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:01:34.631 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:01:42.352 [main] INFO  c.j.IdentityServiceApplication - Started IdentityServiceApplication in 8.814 seconds (process running for 10.24)
+13:07:17.313 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 12716 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:07:17.316 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:07:23.191 [main] INFO  c.j.IdentityServiceApplication - Started IdentityServiceApplication in 6.633 seconds (process running for 7.445)
+13:07:41.477 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 10288 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:07:41.481 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:07:51.413 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9898 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9898 or configure this application to listen on another port.
+
+13:12:34.056 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 14188 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:12:34.059 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:12:39.816 [main] INFO  c.j.IdentityServiceApplication - Started IdentityServiceApplication in 6.508 seconds (process running for 7.361)
+13:12:58.772 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 12912 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:12:58.775 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:13:04.653 [main] INFO  c.j.IdentityServiceApplication - Started IdentityServiceApplication in 6.62 seconds (process running for 7.68)
+13:19:46.729 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 12872 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:19:46.735 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:19:59.515 [main] INFO  c.j.IdentityServiceApplication - Started IdentityServiceApplication in 14.151 seconds (process running for 15.647)
+13:21:29.456 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:837)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1401)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+13:21:43.182 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 13732 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:21:43.187 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:21:53.785 [main] INFO  c.j.IdentityServiceApplication - Started IdentityServiceApplication in 12.232 seconds (process running for 14.279)
+13:23:20.020 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 12528 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:23:20.024 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:23:27.136 [main] INFO  c.j.IdentityServiceApplication - Started IdentityServiceApplication in 7.983 seconds (process running for 9.015)
+13:23:40.267 [http-nio-9898-exec-1] INFO  c.j.controller.AuthController - token service is called
+13:23:41.947 [http-nio-9898-exec-3] INFO  c.j.controller.AuthController - token service is called
+13:24:37.692 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 10068 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:24:37.696 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:24:45.141 [main] INFO  c.j.IdentityServiceApplication - Started IdentityServiceApplication in 8.333 seconds (process running for 9.365)
+13:29:58.943 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 10960 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:29:58.946 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:30:00.121 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:30:00.299 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 166 ms. Found 1 JPA repository interfaces.
+13:30:00.570 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f4ba5ec9-1976-3b07-bb6e-0a9caf6ebbf7
+13:30:00.983 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9898 (http)
+13:30:00.994 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9898"]
+13:30:00.995 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:30:00.996 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+13:30:01.145 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:30:01.146 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2137 ms
+13:30:01.755 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:30:01.830 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+13:30:02.176 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:30:02.510 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25c4f621
+13:30:02.512 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:30:02.537 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.0.0 version for [org.hibernate.dialect.MySQL5Dialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+13:30:02.540 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+13:30:02.542 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+13:30:03.466 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:30:03.478 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:30:03.905 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:30:04.332 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+13:30:04.375 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ee9daf5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@291fba9, org.springframework.security.web.context.SecurityContextHolderFilter@56a8b19f, org.springframework.security.web.header.HeaderWriterFilter@2be49c8c, org.springframework.security.web.authentication.logout.LogoutFilter@2ffc9be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36c45b54, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49aa6081, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29ff84fa, org.springframework.security.web.access.ExceptionTranslationFilter@5d267575, org.springframework.security.web.access.intercept.AuthorizationFilter@4b90f49d]
+13:30:04.736 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+13:30:04.782 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+13:30:04.883 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+13:30:04.930 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+13:30:04.936 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+13:30:04.991 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+13:30:04.991 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+13:30:04.992 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+13:30:04.992 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+13:30:04.992 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+13:30:04.992 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+13:30:04.992 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+13:30:05.224 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+13:30:05.228 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+13:30:05.233 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+13:30:05.239 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1697616005238 with initial instances count: 1
+13:30:05.243 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application IDENTITY-SERVICE with eureka with status UP
+13:30:05.244 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1697616005244, current=UP, previous=STARTING]
+13:30:05.247 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898: registering service...
+13:30:05.248 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9898"]
+13:30:05.279 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9898 (http) with context path ''
+13:30:05.280 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9898
+13:30:05.305 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - registration status: 204
+13:30:05.380 [main] INFO  c.j.IdentityServiceApplication - Started IdentityServiceApplication in 7.629 seconds (process running for 8.488)
+13:30:22.533 [http-nio-9898-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:30:22.534 [http-nio-9898-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:30:22.541 [http-nio-9898-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+13:30:22.667 [http-nio-9898-exec-2] INFO  c.j.controller.AuthController - token service is called
+13:30:56.944 [http-nio-9898-exec-3] INFO  c.j.controller.AuthController - token service is called
+13:30:58.274 [http-nio-9898-exec-4] INFO  c.j.controller.AuthController - token service is called
+13:31:04.669 [http-nio-9898-exec-5] INFO  c.j.controller.AuthController - token service is called
+13:32:14.557 [http-nio-9898-exec-8] INFO  c.j.controller.AuthController - token service is called
+13:32:51.485 [http-nio-9898-exec-9] INFO  c.j.controller.AuthController - token service is called
+13:32:52.722 [http-nio-9898-exec-10] INFO  c.j.controller.AuthController - token service is called
+13:32:53.734 [http-nio-9898-exec-1] INFO  c.j.controller.AuthController - token service is called
+13:32:54.725 [http-nio-9898-exec-2] INFO  c.j.controller.AuthController - token service is called
+13:35:05.007 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+13:35:14.831 [http-nio-9898-exec-5] INFO  c.j.controller.AuthController - token service is called
+13:35:30.633 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+13:35:30.634 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application IDENTITY-SERVICE with eureka with status DOWN
+13:35:30.635 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1697616330635, current=DOWN, previous=UP]
+13:35:30.635 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898: registering service...
+13:35:30.643 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - registration status: 204
+13:35:30.648 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9898"]
+13:35:30.649 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:35:30.650 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+13:35:30.653 [RMI TCP Connection(15)-127.0.0.1] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@7db47323}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ app//zipkin2.reporter.ByteBoundedQueue.drainTo(ByteBoundedQueue.java:81)
+ app//zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:270)
+ app//zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+13:35:30.655 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9898"]
+13:35:30.658 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9898"]
+13:35:30.664 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:35:30.667 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:35:30.675 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:35:31.552 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+13:35:34.558 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+13:35:34.576 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - deregister  status: 200
+13:35:34.586 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+13:35:38.258 [main] INFO  c.j.IdentityServiceApplication - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 3268 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:35:38.261 [main] INFO  c.j.IdentityServiceApplication - No active profile set, falling back to 1 default profile: "default"
+13:35:39.475 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:35:39.636 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interfaces.
+13:35:39.967 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=f4ba5ec9-1976-3b07-bb6e-0a9caf6ebbf7
+13:35:40.357 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9898 (http)
+13:35:40.379 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9898"]
+13:35:40.380 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:35:40.381 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+13:35:40.505 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:35:40.506 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2190 ms
+13:35:41.093 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:35:41.148 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+13:35:41.448 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:35:41.731 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25c4f621
+13:35:41.734 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:35:41.756 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.0.0 version for [org.hibernate.dialect.MySQL5Dialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+13:35:41.759 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+13:35:41.762 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+13:35:42.628 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:35:42.640 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:35:43.027 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:35:43.467 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+13:35:43.515 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@670e6fa3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55fb9e52, org.springframework.security.web.context.SecurityContextHolderFilter@7b57587e, org.springframework.security.web.header.HeaderWriterFilter@2aea7775, org.springframework.security.web.authentication.logout.LogoutFilter@59881424, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4005e63a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@626edbe0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c617143, org.springframework.security.web.access.ExceptionTranslationFilter@394e0104, org.springframework.security.web.access.intercept.AuthorizationFilter@2512eaaa]
+13:35:43.893 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+13:35:43.932 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+13:35:44.043 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+13:35:44.083 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+13:35:44.089 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+13:35:44.118 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+13:35:44.119 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+13:35:44.119 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+13:35:44.119 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+13:35:44.119 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+13:35:44.120 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+13:35:44.120 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+13:35:44.349 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+13:35:44.355 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+13:35:44.359 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+13:35:44.366 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1697616344365 with initial instances count: 2
+13:35:44.369 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application IDENTITY-SERVICE with eureka with status UP
+13:35:44.369 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1697616344369, current=UP, previous=STARTING]
+13:35:44.372 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898: registering service...
+13:35:44.373 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9898"]
+13:35:44.404 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9898 (http) with context path ''
+13:35:44.405 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9898
+13:35:44.439 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - registration status: 204
+13:35:44.520 [main] INFO  c.j.IdentityServiceApplication - Started IdentityServiceApplication in 7.094 seconds (process running for 7.942)
+13:36:06.978 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+13:36:06.980 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application IDENTITY-SERVICE with eureka with status DOWN
+13:36:06.980 [RMI TCP Connection(7)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1697616366980, current=DOWN, previous=UP]
+13:36:06.981 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898: registering service...
+13:36:06.991 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - registration status: 204
+13:36:06.996 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9898"]
+13:36:06.997 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:36:07.002 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9898"]
+13:36:07.005 [RMI TCP Connection(7)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9898"]
+13:36:07.012 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:36:07.014 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:36:07.024 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:36:08.029 [RMI TCP Connection(7)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+13:36:11.037 [RMI TCP Connection(7)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+13:36:11.056 [RMI TCP Connection(7)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - deregister  status: 200
+13:36:11.066 [RMI TCP Connection(7)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+13:36:14.566 [main] INFO  c.j.IdentityServiceApplication ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 2744 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:36:14.570 [main] INFO  c.j.IdentityServiceApplication ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - No active profile set, falling back to 1 default profile: "default"
+13:36:15.676 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:36:15.840 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Finished Spring Data repository scanning in 153 ms. Found 1 JPA repository interfaces.
+13:36:16.103 [main] INFO  o.s.cloud.context.scope.GenericScope ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - BeanFactory id=f4ba5ec9-1976-3b07-bb6e-0a9caf6ebbf7
+13:36:16.510 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Tomcat initialized with port(s): 9898 (http)
+13:36:16.522 [main] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initializing ProtocolHandler ["http-nio-9898"]
+13:36:16.523 [main] INFO  o.a.catalina.core.StandardService ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Starting service [Tomcat]
+13:36:16.524 [main] INFO  o.a.catalina.core.StandardEngine ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Starting Servlet engine: [Apache Tomcat/10.1.5]
+13:36:16.649 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initializing Spring embedded WebApplicationContext
+13:36:16.650 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Root WebApplicationContext: initialization completed in 2005 ms
+13:36:17.258 [main] INFO  o.h.jpa.internal.util.LogHelper ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:36:17.311 [main] INFO  org.hibernate.Version ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH000412: Hibernate ORM core version 6.1.7.Final
+13:36:17.604 [main] INFO  com.zaxxer.hikari.HikariDataSource ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HikariPool-1 - Starting...
+13:36:17.883 [main] INFO  com.zaxxer.hikari.pool.HikariPool ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c157abf
+13:36:17.887 [main] INFO  com.zaxxer.hikari.HikariDataSource ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HikariPool-1 - Start completed.
+13:36:17.923 [main] WARN  org.hibernate.dialect.Dialect ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH000511: The 5.0.0 version for [org.hibernate.dialect.MySQL5Dialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+13:36:17.926 [main] INFO  SQL dialect ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+13:36:17.929 [main] WARN  org.hibernate.orm.deprecation ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+13:36:18.878 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:36:18.891 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:36:19.352 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:36:19.881 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Exposing 1 endpoint(s) beneath base path '/actuator'
+13:36:19.943 [main] INFO  o.s.s.web.DefaultSecurityFilterChain ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3435b6d8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13553828, org.springframework.security.web.context.SecurityContextHolderFilter@5502f74c, org.springframework.security.web.header.HeaderWriterFilter@394e0104, org.springframework.security.web.authentication.logout.LogoutFilter@4aa4bfa1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b57587e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@717b4de2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@670e6fa3, org.springframework.security.web.access.ExceptionTranslationFilter@7108b12d, org.springframework.security.web.access.intercept.AuthorizationFilter@73fa97a9]
+13:36:20.372 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Eureka HTTP Client uses RestTemplate.
+13:36:20.415 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+13:36:20.507 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Setting initial instance status as: STARTING
+13:36:20.547 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initializing Eureka in region us-east-1
+13:36:20.553 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:36:20.582 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Disable delta property : false
+13:36:20.583 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Single vip registry refresh property : null
+13:36:20.583 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Force full registry fetch : false
+13:36:20.584 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Application is null : false
+13:36:20.584 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Registered Applications size is zero : true
+13:36:20.584 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Application version is -1: true
+13:36:20.585 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Getting all instance registry info from the eureka server
+13:36:20.849 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - The response status is 200
+13:36:20.853 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Starting heartbeat executor: renew interval is: 30
+13:36:20.858 [main] INFO  c.n.discovery.InstanceInfoReplicator ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - InstanceInfoReplicator onDemand update allowed rate per min is 4
+13:36:20.864 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Discovery Client initialized at timestamp 1697616380863 with initial instances count: 2
+13:36:20.867 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Registering application IDENTITY-SERVICE with eureka with status UP
+13:36:20.868 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Saw local status change event StatusChangeEvent [timestamp=1697616380868, current=UP, previous=STARTING]
+13:36:20.871 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898: registering service...
+13:36:20.873 [main] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Starting ProtocolHandler ["http-nio-9898"]
+13:36:20.912 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Tomcat started on port(s): 9898 (http) with context path ''
+13:36:20.914 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Updating port to 9898
+13:36:20.955 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - registration status: 204
+13:36:21.015 [main] INFO  c.j.IdentityServiceApplication ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Started IdentityServiceApplication in 7.275 seconds (process running for 8.233)
+13:36:41.970 [http-nio-9898-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:36:41.971 [http-nio-9898-exec-3] INFO  o.s.web.servlet.DispatcherServlet ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initializing Servlet 'dispatcherServlet'
+13:36:41.978 [http-nio-9898-exec-3] INFO  o.s.web.servlet.DispatcherServlet ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Completed initialization in 7 ms
+13:36:42.090 [http-nio-9898-exec-3] INFO  c.j.controller.AuthController ServiceName:spring.application.name_IS_UNDEFINED TraceId:652f921141ae3a032bc5accf23fe912b SpanId:df1262a2b14c3d8e - token service is called
+13:36:45.423 [http-nio-9898-exec-2] INFO  c.j.controller.AuthController ServiceName:spring.application.name_IS_UNDEFINED TraceId:652f92159e5675c98451b8b8dde1ae96 SpanId:574a4b3840b3cc55 - token service is called
+13:36:46.668 [http-nio-9898-exec-4] INFO  c.j.controller.AuthController ServiceName:spring.application.name_IS_UNDEFINED TraceId:652f92162de348ce236fafe0c1560603 SpanId:8f190cc141a81c30 - token service is called
+13:41:20.600 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:42:52.120 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Application shutdown requested.
+13:42:52.121 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Unregistering application IDENTITY-SERVICE with eureka with status DOWN
+13:42:52.121 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Saw local status change event StatusChangeEvent [timestamp=1697616772121, current=DOWN, previous=UP]
+13:42:52.122 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898: registering service...
+13:42:52.128 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - registration status: 204
+13:42:52.134 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Pausing ProtocolHandler ["http-nio-9898"]
+13:42:52.134 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.catalina.core.StandardService ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Stopping service [Tomcat]
+13:42:52.136 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Destroying Spring FrameworkServlet 'dispatcherServlet'
+13:42:52.139 [RMI TCP Connection(15)-127.0.0.1] WARN  o.a.c.loader.WebappClassLoaderBase ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - The web application [ROOT] appears to have started a thread named [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@336e3be2}] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ app//zipkin2.reporter.ByteBoundedQueue.drainTo(ByteBoundedQueue.java:81)
+ app//zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:270)
+ app//zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+13:42:52.142 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Stopping ProtocolHandler ["http-nio-9898"]
+13:42:52.145 [RMI TCP Connection(15)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Destroying ProtocolHandler ["http-nio-9898"]
+13:42:52.154 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Closing JPA EntityManagerFactory for persistence unit 'default'
+13:42:52.157 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HikariPool-1 - Shutdown initiated...
+13:42:52.167 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HikariPool-1 - Shutdown completed.
+13:42:52.441 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Shutting down DiscoveryClient ...
+13:42:55.454 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Unregistering ...
+13:42:55.471 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - deregister  status: 200
+13:42:55.489 [RMI TCP Connection(15)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Completed shut down of DiscoveryClient
+13:42:59.163 [main] INFO  c.j.IdentityServiceApplication ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 11296 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+13:42:59.166 [main] INFO  c.j.IdentityServiceApplication ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - No active profile set, falling back to 1 default profile: "default"
+13:43:00.457 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:43:00.615 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Finished Spring Data repository scanning in 147 ms. Found 1 JPA repository interfaces.
+13:43:00.978 [main] INFO  o.s.cloud.context.scope.GenericScope ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - BeanFactory id=f4ba5ec9-1976-3b07-bb6e-0a9caf6ebbf7
+13:43:01.384 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Tomcat initialized with port(s): 9898 (http)
+13:43:01.395 [main] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initializing ProtocolHandler ["http-nio-9898"]
+13:43:01.396 [main] INFO  o.a.catalina.core.StandardService ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Starting service [Tomcat]
+13:43:01.397 [main] INFO  o.a.catalina.core.StandardEngine ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Starting Servlet engine: [Apache Tomcat/10.1.5]
+13:43:01.535 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initializing Spring embedded WebApplicationContext
+13:43:01.536 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Root WebApplicationContext: initialization completed in 2316 ms
+13:43:02.352 [main] INFO  o.h.jpa.internal.util.LogHelper ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:43:02.426 [main] INFO  org.hibernate.Version ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH000412: Hibernate ORM core version 6.1.7.Final
+13:43:02.710 [main] INFO  com.zaxxer.hikari.HikariDataSource ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HikariPool-1 - Starting...
+13:43:02.999 [main] INFO  com.zaxxer.hikari.pool.HikariPool ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25c4f621
+13:43:03.002 [main] INFO  com.zaxxer.hikari.HikariDataSource ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HikariPool-1 - Start completed.
+13:43:03.023 [main] WARN  org.hibernate.dialect.Dialect ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH000511: The 5.0.0 version for [org.hibernate.dialect.MySQL5Dialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+13:43:03.026 [main] INFO  SQL dialect ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+13:43:03.029 [main] WARN  org.hibernate.orm.deprecation ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+13:43:03.877 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:43:03.887 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:43:04.288 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:43:04.733 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Exposing 1 endpoint(s) beneath base path '/actuator'
+13:43:04.777 [main] INFO  o.s.s.web.DefaultSecurityFilterChain ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@29ff84fa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@156b31d, org.springframework.security.web.context.SecurityContextHolderFilter@36c45b54, org.springframework.security.web.header.HeaderWriterFilter@31f5580b, org.springframework.security.web.authentication.logout.LogoutFilter@30ae6721, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e5d10fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61f62b80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@168ffb0, org.springframework.security.web.access.ExceptionTranslationFilter@2be49c8c, org.springframework.security.web.access.intercept.AuthorizationFilter@7fdaeb6b]
+13:43:05.182 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Eureka HTTP Client uses RestTemplate.
+13:43:05.225 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+13:43:05.318 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Setting initial instance status as: STARTING
+13:43:05.364 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initializing Eureka in region us-east-1
+13:43:05.371 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:43:05.407 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Disable delta property : false
+13:43:05.408 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Single vip registry refresh property : null
+13:43:05.408 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Force full registry fetch : false
+13:43:05.408 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Application is null : false
+13:43:05.408 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Registered Applications size is zero : true
+13:43:05.408 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Application version is -1: true
+13:43:05.409 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Getting all instance registry info from the eureka server
+13:43:05.654 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - The response status is 200
+13:43:05.660 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Starting heartbeat executor: renew interval is: 30
+13:43:05.666 [main] INFO  c.n.discovery.InstanceInfoReplicator ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - InstanceInfoReplicator onDemand update allowed rate per min is 4
+13:43:05.675 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Discovery Client initialized at timestamp 1697616785673 with initial instances count: 1
+13:43:05.681 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Registering application IDENTITY-SERVICE with eureka with status UP
+13:43:05.682 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Saw local status change event StatusChangeEvent [timestamp=1697616785682, current=UP, previous=STARTING]
+13:43:05.687 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898: registering service...
+13:43:05.689 [main] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Starting ProtocolHandler ["http-nio-9898"]
+13:43:05.733 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Tomcat started on port(s): 9898 (http) with context path ''
+13:43:05.734 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Updating port to 9898
+13:43:05.770 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - registration status: 204
+13:43:05.852 [main] INFO  c.j.IdentityServiceApplication ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Started IdentityServiceApplication in 7.52 seconds (process running for 8.438)
+13:43:24.847 [http-nio-9898-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:43:24.848 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Initializing Servlet 'dispatcherServlet'
+13:43:24.851 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet ServiceName:spring.application.name_IS_UNDEFINED TraceId: SpanId: - Completed initialization in 3 ms
+13:43:24.960 [http-nio-9898-exec-1] INFO  c.j.controller.AuthController ServiceName:spring.application.name_IS_UNDEFINED TraceId:652f93a42c2b7153602d45475c691974 SpanId:705aa11c4d682394 - token service is called

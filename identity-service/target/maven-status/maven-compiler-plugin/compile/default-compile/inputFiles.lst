@@ -1,0 +1,10 @@
+C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\src\main\java\com\javatechie\config\AuthConfig.java
+C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\src\main\java\com\javatechie\config\CustomUserDetailsService.java
+C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\src\main\java\com\javatechie\entity\UserCredential.java
+C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\src\main\java\com\javatechie\IdentityServiceApplication.java
+C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\src\main\java\com\javatechie\config\CustomUserDetails.java
+C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\src\main\java\com\javatechie\service\JwtService.java
+C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\src\main\java\com\javatechie\dto\AuthRequest.java
+C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\src\main\java\com\javatechie\service\AuthService.java
+C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\src\main\java\com\javatechie\controller\AuthController.java
+C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\src\main\java\com\javatechie\repository\UserCredentialRepository.java

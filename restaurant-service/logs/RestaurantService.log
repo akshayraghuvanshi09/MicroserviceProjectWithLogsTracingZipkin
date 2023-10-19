@@ -1,0 +1,120 @@
+12:20:27.087 [main] INFO  c.j.RestaurantServiceApplication ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Starting RestaurantServiceApplication using Java 17.0.4.1 with PID 4044 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\restaurant-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\restaurant-service)
+12:20:27.127 [main] INFO  c.j.RestaurantServiceApplication ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - No active profile set, falling back to 1 default profile: "default"
+12:20:29.261 [main] INFO  o.s.cloud.context.scope.GenericScope ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - BeanFactory id=c65b5ac6-a375-3858-9045-687fe7fa8c77
+12:20:29.833 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Tomcat initialized with port(s): 8082 (http)
+12:20:29.853 [main] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Initializing ProtocolHandler ["http-nio-8082"]
+12:20:29.857 [main] INFO  o.a.catalina.core.StandardService ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Starting service [Tomcat]
+12:20:29.857 [main] INFO  o.a.catalina.core.StandardEngine ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Starting Servlet engine: [Apache Tomcat/10.1.5]
+12:20:30.050 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Initializing Spring embedded WebApplicationContext
+12:20:30.054 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Root WebApplicationContext: initialization completed in 2784 ms
+12:20:32.025 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Eureka HTTP Client uses RestTemplate.
+12:20:32.122 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+12:20:32.144 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Exposing 1 endpoint(s) beneath base path '/actuator'
+12:20:32.280 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Setting initial instance status as: STARTING
+12:20:32.453 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Initializing Eureka in region us-east-1
+12:20:32.464 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:20:32.523 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Disable delta property : false
+12:20:32.525 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Single vip registry refresh property : null
+12:20:32.526 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Force full registry fetch : false
+12:20:32.526 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Application is null : false
+12:20:32.527 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Registered Applications size is zero : true
+12:20:32.529 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Application version is -1: true
+12:20:32.530 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Getting all instance registry info from the eureka server
+12:20:33.085 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - The response status is 200
+12:20:33.093 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Starting heartbeat executor: renew interval is: 30
+12:20:33.099 [main] INFO  c.n.discovery.InstanceInfoReplicator ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - InstanceInfoReplicator onDemand update allowed rate per min is 4
+12:20:33.110 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Discovery Client initialized at timestamp 1697698233108 with initial instances count: 2
+12:20:33.120 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Registering application RESTAURANT-SERVICE with eureka with status UP
+12:20:33.122 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Saw local status change event StatusChangeEvent [timestamp=1697698233121, current=UP, previous=STARTING]
+12:20:33.125 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - DiscoveryClient_RESTAURANT-SERVICE/DESKTOP-JFNVUL2:RESTAURANT-SERVICE:8082: registering service...
+12:20:33.139 [main] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Starting ProtocolHandler ["http-nio-8082"]
+12:20:33.235 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Tomcat started on port(s): 8082 (http) with context path ''
+12:20:33.236 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Updating port to 8082
+12:20:33.256 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - DiscoveryClient_RESTAURANT-SERVICE/DESKTOP-JFNVUL2:RESTAURANT-SERVICE:8082 - registration status: 204
+12:20:33.462 [main] INFO  c.j.RestaurantServiceApplication ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Started RestaurantServiceApplication in 7.688 seconds (process running for 8.408)
+12:21:54.995 [http-nio-8082-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:21:54.996 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Initializing Servlet 'dispatcherServlet'
+12:21:55.000 [http-nio-8082-exec-2] INFO  o.s.web.servlet.DispatcherServlet ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Completed initialization in 2 ms
+12:21:55.119 [http-nio-8082-exec-2] INFO  c.j.controller.RestaurantController ServiceName:RESTAURANT_SERVICE TraceId:6530d20bd676862bf5786b6a0175ca1e SpanId:f5786b6a0175ca1e - Endpoint '/restaurant/orders/status/35fds631' accessed with orderId: {}
+12:21:55.120 [http-nio-8082-exec-2] INFO  c.j.service.RestaurantService ServiceName:RESTAURANT_SERVICE TraceId:6530d20bd676862bf5786b6a0175ca1e SpanId:f5786b6a0175ca1e - checking resaurant service for order id 35fds631
+12:21:56.336 [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@7726f1fa}] WARN  z.r.AsyncReporter$BoundedAsyncReporter ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+12:21:56.339 [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@7726f1fa}] WARN  z.r.AsyncReporter$BoundedAsyncReporter ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:68)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:48)
+	at zipkin2.Call$Base.execute(Call.java:391)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 8 common frames omitted
+12:25:32.536 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:30:32.539 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:35:32.543 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:36:37.967 [http-nio-8082-exec-3] INFO  c.j.controller.RestaurantController ServiceName:RESTAURANT_SERVICE TraceId:6530d57dca317dd8355475ed7c20c209 SpanId:355475ed7c20c209 - Endpoint '/restaurant/orders/status/35fds631' accessed with orderId: {}
+12:36:37.969 [http-nio-8082-exec-3] INFO  c.j.service.RestaurantService ServiceName:RESTAURANT_SERVICE TraceId:6530d57dca317dd8355475ed7c20c209 SpanId:355475ed7c20c209 - checking resaurant service for order id 35fds631
+12:39:43.317 [http-nio-8082-exec-5] INFO  c.j.controller.RestaurantController ServiceName:RESTAURANT_SERVICE TraceId:6530d637edee76fce014bfcbdf0d9939 SpanId:e014bfcbdf0d9939 - Endpoint '/restaurant/orders/status/35fds631' accessed with orderId: {}
+12:39:43.317 [http-nio-8082-exec-5] INFO  c.j.service.RestaurantService ServiceName:RESTAURANT_SERVICE TraceId:6530d637edee76fce014bfcbdf0d9939 SpanId:e014bfcbdf0d9939 - checking resaurant service for order id 35fds631
+12:39:44.497 [http-nio-8082-exec-6] INFO  c.j.controller.RestaurantController ServiceName:RESTAURANT_SERVICE TraceId:6530d638625279a9a2b2edc18003667d SpanId:a2b2edc18003667d - Endpoint '/restaurant/orders/status/35fds631' accessed with orderId: {}
+12:39:44.497 [http-nio-8082-exec-6] INFO  c.j.service.RestaurantService ServiceName:RESTAURANT_SERVICE TraceId:6530d638625279a9a2b2edc18003667d SpanId:a2b2edc18003667d - checking resaurant service for order id 35fds631
+12:40:32.549 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:45:32.600 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:49:35.023 [http-nio-8082-exec-8] INFO  c.j.controller.RestaurantController ServiceName:RESTAURANT_SERVICE TraceId:6530d886a6a6f65bbbe699eff49f16fa SpanId:bbe699eff49f16fa - Endpoint '/restaurant/orders/status/35fds631' accessed with orderId: {}
+12:49:35.029 [http-nio-8082-exec-8] INFO  c.j.service.RestaurantService ServiceName:RESTAURANT_SERVICE TraceId:6530d886a6a6f65bbbe699eff49f16fa SpanId:bbe699eff49f16fa - checking resaurant service for order id 35fds631
+12:50:32.616 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:55:32.621 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:00:32.633 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:05:32.650 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:10:32.660 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:15:32.675 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:20:32.683 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:25:32.699 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:30:32.707 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:35:32.724 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:40:32.735 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:45:32.747 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:50:32.760 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:55:32.774 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:00:32.785 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:05:32.804 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:10:32.807 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:15:32.817 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:20:32.823 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:RESTAURANT_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration

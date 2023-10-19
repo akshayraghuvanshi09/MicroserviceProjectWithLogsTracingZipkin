@@ -1,0 +1,184 @@
+PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Program Files\Java\jre1.8.0_341\bin;C:\Program Files\Java\jdk-11.0.17\bin;C:\Users\Its\AppData\Local\Programs\Git;C:\Program Files\Java\jdk1.8.0_341\bin;C:\Users\Its\Downloads\apache-maven-3.9.1\bin;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Java\jdk-17\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Its\AppData\Local\Microsoft\WindowsApps;C:\Users\Its\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Its\AppData\Roaming\npm;C:\Users\Its\AppData\Local\Programs\Git\cmd;C:\minikube;C:\Program Files\Java\jdk-11.0.17
+11:18:41.394 [main] INFO  c.j.IdentityServiceApplication ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Starting IdentityServiceApplication using Java 17.0.4.1 with PID 10432 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\identity-service)
+11:18:41.397 [main] INFO  c.j.IdentityServiceApplication ServiceName:IDENTITY_SERVICE TraceId: SpanId: - No active profile set, falling back to 1 default profile: "default"
+11:18:44.649 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:18:44.942 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Finished Spring Data repository scanning in 273 ms. Found 1 JPA repository interfaces.
+11:18:45.946 [main] INFO  o.s.cloud.context.scope.GenericScope ServiceName:IDENTITY_SERVICE TraceId: SpanId: - BeanFactory id=c98dcfc6-3ab1-3c1d-a1bd-70cebf0ac005
+11:18:48.957 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Tomcat initialized with port(s): 9898 (http)
+11:18:48.992 [main] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Initializing ProtocolHandler ["http-nio-9898"]
+11:18:48.995 [main] INFO  o.a.catalina.core.StandardService ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Starting service [Tomcat]
+11:18:48.995 [main] INFO  o.a.catalina.core.StandardEngine ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Starting Servlet engine: [Apache Tomcat/10.1.5]
+11:18:49.416 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Initializing Spring embedded WebApplicationContext
+11:18:49.417 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Root WebApplicationContext: initialization completed in 7894 ms
+11:18:51.681 [main] INFO  o.h.jpa.internal.util.LogHelper ServiceName:IDENTITY_SERVICE TraceId: SpanId: - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:18:51.934 [main] INFO  org.hibernate.Version ServiceName:IDENTITY_SERVICE TraceId: SpanId: - HHH000412: Hibernate ORM core version 6.1.7.Final
+11:18:53.997 [main] INFO  com.zaxxer.hikari.HikariDataSource ServiceName:IDENTITY_SERVICE TraceId: SpanId: - HikariPool-1 - Starting...
+11:18:55.442 [main] INFO  com.zaxxer.hikari.pool.HikariPool ServiceName:IDENTITY_SERVICE TraceId: SpanId: - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@35b58254
+11:18:55.449 [main] INFO  com.zaxxer.hikari.HikariDataSource ServiceName:IDENTITY_SERVICE TraceId: SpanId: - HikariPool-1 - Start completed.
+11:18:55.601 [main] WARN  org.hibernate.dialect.Dialect ServiceName:IDENTITY_SERVICE TraceId: SpanId: - HHH000511: The 5.0.0 version for [org.hibernate.dialect.MySQL5Dialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+11:18:55.607 [main] INFO  SQL dialect ServiceName:IDENTITY_SERVICE TraceId: SpanId: - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+11:18:55.612 [main] WARN  org.hibernate.orm.deprecation ServiceName:IDENTITY_SERVICE TraceId: SpanId: - HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+11:18:58.720 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator ServiceName:IDENTITY_SERVICE TraceId: SpanId: - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+11:18:58.739 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:19:02.381 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ServiceName:IDENTITY_SERVICE TraceId: SpanId: - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:19:05.253 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Exposing 1 endpoint(s) beneath base path '/actuator'
+11:19:05.424 [main] INFO  o.s.s.web.DefaultSecurityFilterChain ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f1d2384, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50c20b15, org.springframework.security.web.context.SecurityContextHolderFilter@42e14655, org.springframework.security.web.header.HeaderWriterFilter@1f5aac08, org.springframework.security.web.authentication.logout.LogoutFilter@19d043a8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2806fe58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26fee641, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6dcf39c6, org.springframework.security.web.access.ExceptionTranslationFilter@1c12f0f4, org.springframework.security.web.access.intercept.AuthorizationFilter@240b656f]
+11:19:07.201 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Eureka HTTP Client uses RestTemplate.
+11:19:07.339 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+11:19:07.553 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Setting initial instance status as: STARTING
+11:19:08.074 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Initializing Eureka in region us-east-1
+11:19:08.086 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+11:19:08.219 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Disable delta property : false
+11:19:08.219 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Single vip registry refresh property : null
+11:19:08.220 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Force full registry fetch : false
+11:19:08.220 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Application is null : false
+11:19:08.220 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Registered Applications size is zero : true
+11:19:08.220 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Application version is -1: true
+11:19:08.220 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Getting all instance registry info from the eureka server
+11:19:08.901 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - The response status is 200
+11:19:08.914 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Starting heartbeat executor: renew interval is: 30
+11:19:08.919 [main] INFO  c.n.discovery.InstanceInfoReplicator ServiceName:IDENTITY_SERVICE TraceId: SpanId: - InstanceInfoReplicator onDemand update allowed rate per min is 4
+11:19:08.953 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Discovery Client initialized at timestamp 1697694548945 with initial instances count: 1
+11:19:08.985 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Registering application IDENTITY-SERVICE with eureka with status UP
+11:19:09.114 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Saw local status change event StatusChangeEvent [timestamp=1697694549113, current=UP, previous=STARTING]
+11:19:09.181 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898: registering service...
+11:19:09.223 [main] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Starting ProtocolHandler ["http-nio-9898"]
+11:19:09.581 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Tomcat started on port(s): 9898 (http) with context path ''
+11:19:09.583 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Updating port to 9898
+11:19:09.618 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:IDENTITY_SERVICE TraceId: SpanId: - DiscoveryClient_IDENTITY-SERVICE/DESKTOP-JFNVUL2:IDENTITY-SERVICE:9898 - registration status: 204
+11:19:10.029 [main] INFO  c.j.IdentityServiceApplication ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Started IdentityServiceApplication in 30.143 seconds (process running for 31.269)
+11:20:09.027 [http-nio-9898-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:20:09.028 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Initializing Servlet 'dispatcherServlet'
+11:20:09.032 [http-nio-9898-exec-1] INFO  o.s.web.servlet.DispatcherServlet ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Completed initialization in 4 ms
+11:20:09.181 [http-nio-9898-exec-1] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c3916cdae3384a43fe5dcf9c9d26 SpanId:7de973a3deae1596 - token service is called
+11:20:10.200 [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@6eaa6b0c}] WARN  z.r.AsyncReporter$BoundedAsyncReporter ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+11:20:10.200 [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@6eaa6b0c}] WARN  z.r.AsyncReporter$BoundedAsyncReporter ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:68)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:48)
+	at zipkin2.Call$Base.execute(Call.java:391)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 8 common frames omitted
+11:20:25.236 [http-nio-9898-exec-3] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c3a0be52ef6f2c91cbba48e1b551 SpanId:3a7677e204efc39e - Register service is called
+11:24:08.237 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+11:29:08.241 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+11:34:08.251 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+11:39:08.262 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+11:40:10.185 [http-nio-9898-exec-6] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c8412e17bfa94d7000a6e8092c2d SpanId:3286dc3a54e671a5 - Register service is called
+11:40:11.834 [http-nio-9898-exec-7] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c843b1333dcf107750aef6e03d91 SpanId:c71e83facba6dc69 - Register service is called
+11:44:08.278 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+11:44:45.809 [http-nio-9898-exec-8] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c9554f6c5fdf5685694c28c08243 SpanId:bd0b52c4039bf924 - Register service is called
+11:44:52.197 [http-nio-9898-exec-10] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c95ca986f0440555630e61dc5310 SpanId:b69a3a400f766595 - Register service is called
+11:44:55.098 [http-nio-9898-exec-2] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c95fc76401286a5dec6834a49989 SpanId:d0e8423c9b37a5b3 - Register service is called
+11:44:57.707 [http-nio-9898-exec-1] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c961385c34e3c8e2e8010e6fdd78 SpanId:15bce85719c4c63c - Register service is called
+11:45:00.072 [http-nio-9898-exec-3] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c9642c82ce3792f375c8a2b1c495 SpanId:e3d05d7efed5869a - Register service is called
+11:47:03.131 [http-nio-9898-exec-6] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c9df152ef70fbe80363e06e73c80 SpanId:b56746ef393a0d0a - token service is called
+11:47:05.400 [http-nio-9898-exec-7] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c9e1092e94aab0b4055039cfe3b8 SpanId:6a3d8d20e0c0746e - token service is called
+11:47:06.840 [http-nio-9898-exec-9] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530c9e25de59490ee4bb98381c87cc0 SpanId:b26d55aa563c66c8 - token service is called
+11:49:08.283 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+11:50:57.740 [http-nio-9898-exec-2] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530cac91b46700b68907126a3e670fc SpanId:e197d8ed62c6f801 - token service is called
+11:54:08.289 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+11:58:27.617 [http-nio-9898-exec-4] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530cc8ba42253f2c3fae234be25b7f8 SpanId:321c2e0b0e6470d3 - token service is called
+11:59:08.292 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:02:48.666 [http-nio-9898-exec-7] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530cd909fe8f91e4eed9650fb652e54 SpanId:99a54ec4ae6d771a - token service is called
+12:02:50.874 [http-nio-9898-exec-9] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530cd92ee8ebf3b9d5884a5ccac1f9c SpanId:c2e853a3320ab7ef - token service is called
+12:02:52.080 [http-nio-9898-exec-8] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530cd9435100af3e1593dc66800b873 SpanId:3acce12b7e0598b2 - token service is called
+12:04:08.298 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:09:08.310 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:11:45.744 [http-nio-9898-exec-1] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530cfa9b6692dc7ee028a5be6c6b971 SpanId:52c094882b4472e0 - token service is called
+12:11:47.930 [http-nio-9898-exec-3] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530cfab7c2c377dd437e25cfcdaf059 SpanId:2bfd53b0c8a15de2 - token service is called
+12:11:49.629 [http-nio-9898-exec-4] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530cfad1ec7ea2ebbe6b632ae95fc10 SpanId:e60062f977fc6dd9 - token service is called
+12:12:32.267 [http-nio-9898-exec-5] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530cfd8e864a442ae3924990800b9db SpanId:a2a5d56805699acd - token service is called
+12:14:08.335 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:14:32.268 [http-nio-9898-exec-7] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d0502a0bf66bd307822a14f3da15 SpanId:2cd66d27327b97de - Register service is called
+12:14:36.370 [http-nio-9898-exec-9] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d054f9190060ed2494f35b54fbb0 SpanId:a784732f78308f2f - token service is called
+12:19:08.344 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:21:37.209 [http-nio-9898-exec-1] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d1f9c304d165d9c7d5f64c5b3a90 SpanId:c934989d0161d9b1 - token service is called
+12:22:18.807 [http-nio-9898-exec-4] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d222028f73e2f01d1827c89abe70 SpanId:6f40fbacc985438f - Register service is called
+12:24:08.357 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:29:08.365 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:34:08.371 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:39:08.379 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:39:55.410 [http-nio-9898-exec-8] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d6439d3a7939728a9c4a3be0a38f SpanId:e7791ac1cf6dbd5c - token service is called
+12:40:05.947 [http-nio-9898-exec-9] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d64d8a80daabe7d821028647a3bc SpanId:0f6593b7901f1f73 - token service is called
+12:40:07.021 [http-nio-9898-exec-10] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d64fb03bcdea8f34a3a794590ab2 SpanId:322acd63f30737b9 - token service is called
+12:40:33.005 [http-nio-9898-exec-2] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d6695863b6e53a8d0e8ebf74fa13 SpanId:790bbaecaf170cce - token service is called
+12:40:34.034 [http-nio-9898-exec-3] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d66a8187019e4e89a325b356f128 SpanId:c8d79c3eef1d85db - token service is called
+12:40:35.019 [http-nio-9898-exec-1] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d66b7a8950b92cbd8f33e8a32cc7 SpanId:e071170ee5a5e30a - token service is called
+12:40:35.990 [http-nio-9898-exec-4] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d66b958374657bd29608df2655fc SpanId:7f0026f01bb80fe9 - token service is called
+12:41:15.882 [http-nio-9898-exec-5] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d69332819d8c1b8836dcfdd2bbfe SpanId:31b057d04a8bd24a - token service is called
+12:41:18.116 [http-nio-9898-exec-6] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d696cc4b9ffc35715a6599219f10 SpanId:eafd0927ef768c3f - token service is called
+12:41:20.622 [http-nio-9898-exec-7] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d698b95112fe15758ca23e8ab106 SpanId:50847799b49dfec7 - token service is called
+12:41:41.541 [http-nio-9898-exec-8] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d6ad907b2a603308ef3859d6dbbb SpanId:c5436faf4050ff84 - token service is called
+12:41:46.065 [http-nio-9898-exec-9] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d6b2bc952fecd095900e9b110df5 SpanId:749c963d3ed18ce2 - Register service is called
+12:42:25.139 [http-nio-9898-exec-10] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d6d9dda9ea2773a8745fe47fa7c3 SpanId:049c8593fca38769 - Register service is called
+12:42:26.460 [http-nio-9898-exec-2] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d6da85be98c926015e1387105bbd SpanId:66b9f4b009ac4bbb - Register service is called
+12:44:08.381 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:45:32.637 [http-nio-9898-exec-4] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d794a7b93e86626e6b8fbb6a7f57 SpanId:3c55e37b68206ad0 - Register service is called
+12:46:17.532 [http-nio-9898-exec-5] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d7c1b0f766213cbd5c51fc827288 SpanId:9f032ab7d46461cf - Register service is called
+12:46:35.108 [http-nio-9898-exec-6] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530d7d30430580bb516ef3adae90eed SpanId:c17b2ae8455174e8 - Register service is called
+12:49:08.406 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:54:08.456 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:59:08.463 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:04:08.471 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:09:08.490 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:14:08.497 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:19:08.501 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:20:19.902 [http-nio-9898-exec-9] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530dfbb53c1bb4febf66f1c0d0640f9 SpanId:73576e00069d0285 - token service is called
+13:21:05.071 [http-nio-9898-exec-10] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530dfe9765d12fa43ddec0d1b862151 SpanId:4a4afe57e1072700 - token service is called
+13:21:19.620 [http-nio-9898-exec-2] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530dff75268b415dc9bf0240cc306ca SpanId:67e82830ac3daaa2 - token service is called
+13:21:20.920 [http-nio-9898-exec-3] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530dff8d98d75e930670cc112c2fa83 SpanId:7c9710ce17c12a57 - token service is called
+13:21:50.114 [http-nio-9898-exec-1] INFO  c.j.controller.AuthController ServiceName:IDENTITY_SERVICE TraceId:6530e016bfdead9e66b5f37603e828e9 SpanId:d621484dc10cf612 - token service is called
+13:24:08.516 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:29:08.521 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:34:08.536 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:39:08.551 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:44:08.564 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:49:08.578 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:54:08.590 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:59:08.594 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:04:08.612 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:09:08.614 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:14:08.618 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:19:08.628 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:IDENTITY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration

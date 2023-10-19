@@ -1,0 +1,488 @@
+12:13:51.274 [main] INFO  com.javatechie.SwiggyAppApplication ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Starting SwiggyAppApplication using Java 17.0.4.1 with PID 7944 (C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\swiggy-app\target\classes started by Its in C:\Users\Its\Documents\jwt-apigateway-security-main\jwt-apigateway-security-main\swiggy-app)
+12:13:51.289 [main] INFO  com.javatechie.SwiggyAppApplication ServiceName:SWIGGY_SERVICE TraceId: SpanId: - No active profile set, falling back to 1 default profile: "default"
+12:13:53.462 [main] INFO  o.s.cloud.context.scope.GenericScope ServiceName:SWIGGY_SERVICE TraceId: SpanId: - BeanFactory id=561ee1ef-d313-3847-8eee-295886a5bf1e
+12:13:54.043 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Tomcat initialized with port(s): 8081 (http)
+12:13:54.058 [main] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Initializing ProtocolHandler ["http-nio-8081"]
+12:13:54.063 [main] INFO  o.a.catalina.core.StandardService ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Starting service [Tomcat]
+12:13:54.065 [main] INFO  o.a.catalina.core.StandardEngine ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Starting Servlet engine: [Apache Tomcat/10.1.5]
+12:13:54.273 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Initializing Spring embedded WebApplicationContext
+12:13:54.277 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Root WebApplicationContext: initialization completed in 2803 ms
+12:13:57.726 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Eureka HTTP Client uses RestTemplate.
+12:13:57.802 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+12:13:57.818 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Exposing 1 endpoint(s) beneath base path '/actuator'
+12:13:57.972 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Setting initial instance status as: STARTING
+12:13:58.230 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Initializing Eureka in region us-east-1
+12:13:58.260 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:13:58.335 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Disable delta property : false
+12:13:58.342 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Single vip registry refresh property : null
+12:13:58.346 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Force full registry fetch : false
+12:13:58.351 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Application is null : false
+12:13:58.354 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Registered Applications size is zero : true
+12:13:58.357 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Application version is -1: true
+12:13:58.361 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Getting all instance registry info from the eureka server
+12:13:58.910 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - The response status is 200
+12:13:58.916 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Starting heartbeat executor: renew interval is: 30
+12:13:58.923 [main] INFO  c.n.discovery.InstanceInfoReplicator ServiceName:SWIGGY_SERVICE TraceId: SpanId: - InstanceInfoReplicator onDemand update allowed rate per min is 4
+12:13:58.936 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Discovery Client initialized at timestamp 1697697838934 with initial instances count: 2
+12:13:58.941 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Registering application SWIGGY-APP with eureka with status UP
+12:13:58.945 [main] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Saw local status change event StatusChangeEvent [timestamp=1697697838945, current=UP, previous=STARTING]
+12:13:58.951 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - DiscoveryClient_SWIGGY-APP/DESKTOP-JFNVUL2:SWIGGY-APP:8081: registering service...
+12:13:58.954 [main] INFO  o.a.coyote.http11.Http11NioProtocol ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Starting ProtocolHandler ["http-nio-8081"]
+12:13:59.115 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Tomcat started on port(s): 8081 (http) with context path ''
+12:13:59.172 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Updating port to 8081
+12:13:59.221 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient ServiceName:SWIGGY_SERVICE TraceId: SpanId: - DiscoveryClient_SWIGGY-APP/DESKTOP-JFNVUL2:SWIGGY-APP:8081 - registration status: 204
+12:13:59.328 [main] INFO  com.javatechie.SwiggyAppApplication ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Started SwiggyAppApplication in 9.38 seconds (process running for 10.191)
+12:14:46.770 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12:14:46.771 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Initializing Servlet 'dispatcherServlet'
+12:14:46.777 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Completed initialization in 6 ms
+12:14:47.101 [http-nio-8081-exec-1] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d05e2a4bbf82524dc6f354d7daf0 SpanId:cd5a0738381b8fa3 - Endpoint '/home' accessed.
+12:14:47.101 [http-nio-8081-exec-1] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d05e2a4bbf82524dc6f354d7daf0 SpanId:cd5a0738381b8fa3 - Welcome to Swiggy App Service
+12:14:48.179 [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@14c82e13}] WARN  z.r.AsyncReporter$BoundedAsyncReporter ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+12:14:48.179 [AsyncReporter{org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender@14c82e13}] WARN  z.r.AsyncReporter$BoundedAsyncReporter ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:888)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:868)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:646)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:68)
+	at org.springframework.boot.actuate.autoconfigure.tracing.zipkin.ZipkinRestTemplateSender$RestTemplateHttpPostCall.doExecute(ZipkinRestTemplateSender.java:48)
+	at zipkin2.Call$Base.execute(Call.java:391)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:9411 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory$1.run(PlainConnectionSocketFactory.java:87)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at org.apache.hc.client5.http.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:84)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:148)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:396)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:158)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:168)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:136)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:190)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:96)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:133)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:115)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:170)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:54)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:93)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	... 8 common frames omitted
+12:15:24.834 [http-nio-8081-exec-3] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d0845404b41326560559db0c0267 SpanId:0ac7cad415c33054 - Endpoint '/home' accessed.
+12:15:24.834 [http-nio-8081-exec-3] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d0845404b41326560559db0c0267 SpanId:0ac7cad415c33054 - Welcome to Swiggy App Service
+12:18:53.713 [http-nio-8081-exec-5] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d155d822721fb51b730390bf325e SpanId:e23d8ab8d669484a - Endpoint '/35fds631' accessed with orderId: {}
+12:18:53.713 [http-nio-8081-exec-5] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d155d822721fb51b730390bf325e SpanId:e23d8ab8d669484a - Checking order status for orderId: 35fds631
+12:18:53.888 [http-nio-8081-exec-5] WARN  o.s.c.l.core.RoundRobinLoadBalancer ServiceName:SWIGGY_SERVICE TraceId:6530d155d822721fb51b730390bf325e SpanId:e23d8ab8d669484a - No servers available for service: RESTAURANT-SERVICE
+12:18:53.907 [http-nio-8081-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: No instances available for RESTAURANT-SERVICE] with root cause
+java.lang.IllegalStateException: No instances available for RESTAURANT-SERVICE
+	at org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient.execute(BlockingLoadBalancerClient.java:78)
+	at org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor.intercept(LoadBalancerInterceptor.java:56)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:378)
+	at com.javatechie.client.RestaurantServiceClient.fetchOrderStatus(RestaurantServiceClient.java:16)
+	at com.javatechie.service.SwiggyAppService.checkOrderStatus(SwiggyAppService.java:25)
+	at com.javatechie.controller.SwiggyAppController.checkOrderStatus(SwiggyAppController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+12:18:58.451 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:19:10.205 [http-nio-8081-exec-6] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d166edf94a95f6f148953e0e9b0c SpanId:b2a898443016b52b - Endpoint '/35fds631' accessed with orderId: {}
+12:19:10.205 [http-nio-8081-exec-6] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d166edf94a95f6f148953e0e9b0c SpanId:b2a898443016b52b - Checking order status for orderId: 35fds631
+12:19:10.207 [http-nio-8081-exec-6] WARN  o.s.c.l.core.RoundRobinLoadBalancer ServiceName:SWIGGY_SERVICE TraceId:6530d166edf94a95f6f148953e0e9b0c SpanId:b2a898443016b52b - No servers available for service: RESTAURANT-SERVICE
+12:19:10.209 [http-nio-8081-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: No instances available for RESTAURANT-SERVICE] with root cause
+java.lang.IllegalStateException: No instances available for RESTAURANT-SERVICE
+	at org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient.execute(BlockingLoadBalancerClient.java:78)
+	at org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor.intercept(LoadBalancerInterceptor.java:56)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:378)
+	at com.javatechie.client.RestaurantServiceClient.fetchOrderStatus(RestaurantServiceClient.java:16)
+	at com.javatechie.service.SwiggyAppService.checkOrderStatus(SwiggyAppService.java:25)
+	at com.javatechie.controller.SwiggyAppController.checkOrderStatus(SwiggyAppController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+12:20:36.972 [http-nio-8081-exec-7] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d1bceaacd3b713919b74520905a7 SpanId:9c5f5e7c01a3795e - Endpoint '/35fds631' accessed with orderId: {}
+12:20:36.973 [http-nio-8081-exec-7] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d1bceaacd3b713919b74520905a7 SpanId:9c5f5e7c01a3795e - Checking order status for orderId: 35fds631
+12:20:36.974 [http-nio-8081-exec-7] WARN  o.s.c.l.core.RoundRobinLoadBalancer ServiceName:SWIGGY_SERVICE TraceId:6530d1bceaacd3b713919b74520905a7 SpanId:9c5f5e7c01a3795e - No servers available for service: RESTAURANT-SERVICE
+12:20:36.976 [http-nio-8081-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: No instances available for RESTAURANT-SERVICE] with root cause
+java.lang.IllegalStateException: No instances available for RESTAURANT-SERVICE
+	at org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient.execute(BlockingLoadBalancerClient.java:78)
+	at org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor.intercept(LoadBalancerInterceptor.java:56)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:378)
+	at com.javatechie.client.RestaurantServiceClient.fetchOrderStatus(RestaurantServiceClient.java:16)
+	at com.javatechie.service.SwiggyAppService.checkOrderStatus(SwiggyAppService.java:25)
+	at com.javatechie.controller.SwiggyAppController.checkOrderStatus(SwiggyAppController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+12:20:39.378 [http-nio-8081-exec-8] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d1bf648ecbb24f27372f5a462cb3 SpanId:aa4c1754d31061c5 - Endpoint '/35fds631' accessed with orderId: {}
+12:20:39.378 [http-nio-8081-exec-8] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d1bf648ecbb24f27372f5a462cb3 SpanId:aa4c1754d31061c5 - Checking order status for orderId: 35fds631
+12:20:39.380 [http-nio-8081-exec-8] WARN  o.s.c.l.core.RoundRobinLoadBalancer ServiceName:SWIGGY_SERVICE TraceId:6530d1bf648ecbb24f27372f5a462cb3 SpanId:aa4c1754d31061c5 - No servers available for service: RESTAURANT-SERVICE
+12:20:39.383 [http-nio-8081-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: No instances available for RESTAURANT-SERVICE] with root cause
+java.lang.IllegalStateException: No instances available for RESTAURANT-SERVICE
+	at org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient.execute(BlockingLoadBalancerClient.java:78)
+	at org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor.intercept(LoadBalancerInterceptor.java:56)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:378)
+	at com.javatechie.client.RestaurantServiceClient.fetchOrderStatus(RestaurantServiceClient.java:16)
+	at com.javatechie.service.SwiggyAppService.checkOrderStatus(SwiggyAppService.java:25)
+	at com.javatechie.controller.SwiggyAppController.checkOrderStatus(SwiggyAppController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+12:20:42.023 [http-nio-8081-exec-9] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d1c2fe63de75dd61daacc6d14828 SpanId:b3614bc96b57162f - Endpoint '/35fds631' accessed with orderId: {}
+12:20:42.023 [http-nio-8081-exec-9] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d1c2fe63de75dd61daacc6d14828 SpanId:b3614bc96b57162f - Checking order status for orderId: 35fds631
+12:20:42.025 [http-nio-8081-exec-9] WARN  o.s.c.l.core.RoundRobinLoadBalancer ServiceName:SWIGGY_SERVICE TraceId:6530d1c2fe63de75dd61daacc6d14828 SpanId:b3614bc96b57162f - No servers available for service: RESTAURANT-SERVICE
+12:20:42.026 [http-nio-8081-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalStateException: No instances available for RESTAURANT-SERVICE] with root cause
+java.lang.IllegalStateException: No instances available for RESTAURANT-SERVICE
+	at org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient.execute(BlockingLoadBalancerClient.java:78)
+	at org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor.intercept(LoadBalancerInterceptor.java:56)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:87)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:862)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:764)
+	at org.springframework.web.client.RestTemplate.getForObject(RestTemplate.java:378)
+	at com.javatechie.client.RestaurantServiceClient.fetchOrderStatus(RestaurantServiceClient.java:16)
+	at com.javatechie.service.SwiggyAppService.checkOrderStatus(SwiggyAppService.java:25)
+	at com.javatechie.controller.SwiggyAppController.checkOrderStatus(SwiggyAppController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+12:21:46.723 [http-nio-8081-exec-10] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d2021712ccf9aa12232b1c25eaf8 SpanId:a6709bacaeb6d6db - Endpoint '/home' accessed.
+12:21:46.723 [http-nio-8081-exec-10] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d2021712ccf9aa12232b1c25eaf8 SpanId:a6709bacaeb6d6db - Welcome to Swiggy App Service
+12:21:54.876 [http-nio-8081-exec-2] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d20aa57691817dac8e905092530f SpanId:6f78fba8fa660656 - Endpoint '/35fds631' accessed with orderId: {}
+12:21:54.876 [http-nio-8081-exec-2] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d20aa57691817dac8e905092530f SpanId:6f78fba8fa660656 - Checking order status for orderId: 35fds631
+12:23:58.467 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:28:58.481 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:33:58.494 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:35:54.624 [http-nio-8081-exec-3] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d552f49f079bad4dd6f7a3f1f7cd SpanId:706ad4da9496eb88 - Endpoint '/home' accessed.
+12:35:54.625 [http-nio-8081-exec-3] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d552f49f079bad4dd6f7a3f1f7cd SpanId:706ad4da9496eb88 - Welcome to Swiggy App Service
+12:36:19.860 [http-nio-8081-exec-4] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d56b231de0f049b14fdf819335f6 SpanId:fdf232622ed304cb - Endpoint '/home' accessed.
+12:36:19.861 [http-nio-8081-exec-4] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d56b231de0f049b14fdf819335f6 SpanId:fdf232622ed304cb - Welcome to Swiggy App Service
+12:36:21.355 [http-nio-8081-exec-5] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d56d96d9b06659e5ea61e88e0d65 SpanId:9bb97da7467d042b - Endpoint '/home' accessed.
+12:36:21.355 [http-nio-8081-exec-5] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d56d96d9b06659e5ea61e88e0d65 SpanId:9bb97da7467d042b - Welcome to Swiggy App Service
+12:36:37.596 [http-nio-8081-exec-6] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d57d91e76f86734632a41aea50f0 SpanId:511bc388ca9d9b0a - Endpoint '/35fds631' accessed with orderId: {}
+12:36:37.597 [http-nio-8081-exec-6] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d57d91e76f86734632a41aea50f0 SpanId:511bc388ca9d9b0a - Checking order status for orderId: 35fds631
+12:38:58.502 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:39:43.304 [http-nio-8081-exec-8] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d6378868b501aec87601f0463e65 SpanId:46bad19cb468de86 - Endpoint '/35fds631' accessed with orderId: {}
+12:39:43.305 [http-nio-8081-exec-8] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d6378868b501aec87601f0463e65 SpanId:46bad19cb468de86 - Checking order status for orderId: 35fds631
+12:39:44.457 [http-nio-8081-exec-9] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d638897a75be69b200e4c6f63c13 SpanId:153f56d32e22ebf0 - Endpoint '/35fds631' accessed with orderId: {}
+12:39:44.457 [http-nio-8081-exec-9] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d638897a75be69b200e4c6f63c13 SpanId:153f56d32e22ebf0 - Checking order status for orderId: 35fds631
+12:43:58.509 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:48:58.592 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:49:34.807 [http-nio-8081-exec-2] INFO  c.j.controller.SwiggyAppController ServiceName:SWIGGY_SERVICE TraceId:6530d88624dd5e06a4e5d50f80f8a250 SpanId:b1903dc233cb56d8 - Endpoint '/35fds631' accessed with orderId: {}
+12:49:34.810 [http-nio-8081-exec-2] INFO  c.j.service.SwiggyAppService ServiceName:SWIGGY_SERVICE TraceId:6530d88624dd5e06a4e5d50f80f8a250 SpanId:b1903dc233cb56d8 - Checking order status for orderId: 35fds631
+12:53:58.689 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+12:58:58.699 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:03:58.719 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:08:58.724 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:13:58.734 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:18:58.743 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:23:58.755 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:28:58.773 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:33:58.777 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:38:58.794 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:43:58.807 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:48:58.818 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:53:58.823 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+13:58:58.834 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:03:58.839 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:08:58.840 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:13:58.854 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
+14:18:58.863 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver ServiceName:SWIGGY_SERVICE TraceId: SpanId: - Resolving eureka endpoints via configuration
